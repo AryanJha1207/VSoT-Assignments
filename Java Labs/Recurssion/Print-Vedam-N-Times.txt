@@ -1,0 +1,18 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		printfun(n);
+	}
+	public static void printfun(int n){
+		if(n==0){
+			return;
+		}
+		printfun(n-1);
+		System.out.print("Vedam"+" ");
+		return;
+	}
+}

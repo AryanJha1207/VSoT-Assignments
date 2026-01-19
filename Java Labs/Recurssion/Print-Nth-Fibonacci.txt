@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner scn= new Scanner(System.in);
+		int n = scn.nextInt();
+		int sum1 = 0;
+		int sum2 = 1;
+		System.out.print(printfibo(n,sum1,sum2));
+	}
+	public static int printfibo(int n, int sum1, int sum2){
+		if (n==0) {
+			return sum1;
+		}
+		int temp = sum1;
+		sum1 = sum1+sum2;
+		sum2 = temp;
+		return printfibo(n-1,sum1,sum2);
+		
+	}
+}
