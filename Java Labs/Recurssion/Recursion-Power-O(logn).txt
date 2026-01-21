@@ -1,0 +1,23 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		int p = scn.nextInt();
+		System.out.print(pow(n,p));
+	}
+	static int pow(int n, int p){
+		if (p==1) return n;
+		int temp = pow(n,p/2);
+		int ans=0;
+		if(p%2==0){
+			ans=temp*temp;
+		}
+		else{
+			ans=temp*temp*n;
+		}
+		return ans;
+	}
+}
