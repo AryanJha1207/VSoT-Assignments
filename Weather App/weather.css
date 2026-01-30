@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+
+
+
+
+#button{
+    background-color: yellowgreen;
+    size: 40px;
+    border-radius: 12px;
+    width: 75px;
+    height: 25px;
+}
+
+.inputt{
+    height: 25px;
+    border-radius: 12px;
+}
+.flexbox{
+    display: flex;
+    background-color: #748CF1;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-container{
+    height: calc(100vh - 60px);
+    display: flex;
+    background-color: rebeccapurple;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.temprature{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.city-name{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.time{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.date{
+    font-size: 20px;
+    font-family
+}
+
+.day{
+    font-size: 20px;
+}
+
+.icon{
+    font-size: 37px;
+}
