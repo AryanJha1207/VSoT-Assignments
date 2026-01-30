@@ -1,8 +1,3 @@
-Here is the updated, designer-style `README.md` based exactly on your specific instructions. I’ve adjusted the heading, the description, and the project details to match the narrative you provided.
-
-You can copy and paste the code block below directly into your GitHub `README.md` file.
-
-```markdown
 <div align="center">
 
   # 🎓 VSoT Assignments and Classwork
@@ -39,16 +34,16 @@ The codebase is organized by subject and language to keep things clean and acces
 ```bash
 VSoT-Assignments/
 ├── Java Labs ☕/
-│   ├── Topics/               # All DSA Questions Related Work
+│   ├── Topics/             # All DSA Questions Related Work
 │
 ├── Python 🐍/
-│   └── Topics/       # All Python Programming Related Work
+│   └── Topics/             # All Python Programming Related Work
 │
 ├── Web-Dev 🌐/
-│   ├── ClassWork/              # All Topics and Methods 
-│   ├── Assignments/               # All Assignments Completed by Me
+│   ├── ClassWork/          # All Topics and Methods 
+│   ├── Assignments/        # All Assignments Completed by Me
 │
-└── Weather App 🌤️/        # Live weather project (See below)
+└── Weather App 🌤️/         # Live weather project (See below)
 
 ```
 
@@ -66,14 +61,7 @@ This is a specific project located within the repository.
 
 <div align="center">
 
-### 🛠️ Languages & Tools
-
-<br />
 <br />
 <br />
 
 made with love ❤️ by ARYZEN NEX 👾
-
-</div>
-
-```
