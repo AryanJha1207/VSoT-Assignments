@@ -1,0 +1,3 @@
+print("Hello Net Surfer!")
+# Super Duper Easy....Vedam is the BEST...always teaches from the basics...
+# My Best Place - VSOT  
